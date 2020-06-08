@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  padding: 40px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.para{
+  margin: auto;
+}
+
+.button{
+  border:1px solid #999;
+  border-radius:2px;
+  transition:all 55s;
+  padding:0px 10px;
+  height:27px;
+  min-width:74px;
+  text-align:center;
+  cursor:pointer;
+  font-weight:bold;
+  position:relative;
+  font-size:11px;
+  font-family: Arial;
+  color:#222;
+}
+.todopara{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+  background-color:#b78c00;
+  display: flex;
+  border:2px solid black;
+  border-radius: 1cm;
+  margin-bottom: 4px;
+  flex-direction: row;
+  align-items:center;
+  text-align: center;
+  
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.inputfield{
+  width: 700px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 1cm;
+  
+  
+}
+.input{
+  color: white;
+}
+.Body{
+  background-color: orangered;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
